@@ -6,25 +6,6 @@ body {
     padding: 20px;
     text-align: center;
 }
-@media (max-width: 477px) {
-    body{
-    background-image: url(bg2.png);
-    background-size: auto;
-    }
-    h1{
-        padding: 70px;
-    }
-    h2{
-        padding: 10px;
-    }
-    input[type="text"] {
-        padding: 10px;
-    }
-    button {
-        padding: 30px 20px;
-    }
-}
-
 h1 {
     color: #fff;
     margin-bottom: 20px;
@@ -64,4 +45,22 @@ button:hover {
 
 a {
     display: none;
+}
+@media (max-width: 490px) {
+    body{
+    background-image: url(bg2.png);
+    background-size: auto;
+    }
+    h1{
+        padding: 70px;
+    }
+    h2{
+        padding: 10px;
+    }
+    input[type="text"] {
+        padding: 10px;
+    }
+    button {
+        padding: 30px 20px;
+    }
 }
