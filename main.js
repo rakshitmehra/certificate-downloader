@@ -1,7 +1,7 @@
 function func(){
-    let url = document.getElementById("name").value;
-    if(!url) {
-        alert("Please enter your name");
+    let url = document.getElementById("name").value.toLowerCase();
+    if(!url){
+            alert("Please enter your name");
         return;
     } 
 
