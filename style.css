@@ -7,11 +7,11 @@ body {
     text-align: center;
 }
 h1 {
-    color: #fff;
+    color: #000;
     margin-bottom: 40px;
 }
 h2 {
-    color: #fff;
+    color: #000;
     margin-bottom: 35px;
 }
 
@@ -48,7 +48,7 @@ a {
 }
 @media (max-width: 490px) {
     body{
-    background-image: url(bg2.png);
+    background-image: url(bg3.png);
     background-size: auto;
     }
     h1{
